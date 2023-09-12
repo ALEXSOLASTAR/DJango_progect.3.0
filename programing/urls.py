@@ -17,7 +17,7 @@ from django.contrib import admin
 from django.urls import path, include
 
 from programing.views import page1, page2
-
+#
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('languages/', include(('languages.urls', 'languages'))),
